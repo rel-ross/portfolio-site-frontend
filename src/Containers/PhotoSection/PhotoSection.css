@@ -1,0 +1,8 @@
+.headshot-container {
+    width: 25%;
+    background-image: url('../../Assets/arielle_cat_wall.jpg');
+    overflow: hidden;
+    background-size: cover;
+    overflow: hidden;
+ 
+}

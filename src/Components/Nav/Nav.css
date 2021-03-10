@@ -1,0 +1,36 @@
+
+.title h1 {
+    transform: rotate(-90deg);
+    margin-top: 200px;
+    margin-right: 0px;
+}
+
+.about {
+    background-color: rgb(49,138, 137);
+    /* background-color: rgb(55,189, 188); */
+}
+
+.portfolio {
+    background-color: rgb(127, 168, 59);
+    margin-top: 200px;
+}
+
+.contact {
+    background-color: rgb(169, 77, 78);
+    margin-top: 400px;
+}
+
+.nav-section a {
+    text-decoration: none;
+    padding: 0;
+    color: white;
+    font-size: 1.3em;
+    letter-spacing: .1em;
+    width: 3.1em;
+    transition: transform .3s ease-in-out;
+}
+
+.nav-section a:hover {
+    transform: translate3d(0px, 20px, 0px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

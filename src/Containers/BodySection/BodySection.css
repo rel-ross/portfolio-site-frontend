@@ -1,0 +1,11 @@
+.body-section {
+    margin: 2% 5%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-title {
+    font-size: 4.5em;
+    /* text-align: center; */
+}
