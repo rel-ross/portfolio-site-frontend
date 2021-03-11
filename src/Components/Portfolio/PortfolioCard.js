@@ -2,15 +2,18 @@ import React from 'react'
 
 import './PortfolioCard.css'
 
-export default function PortfolioCard() {
+export default function PortfolioCard({ portfolioItem }) {
     return (
         <div className="portfolio-card">
-            <img className="portfolio-card-image" src={'http://arielleross.com/assets/portfolio/KateDowdyYoga.jpg'}></img>
-            <h3>Kate Dowdy Yoga</h3>
+            <div class="portfolio-image">    
+                <a className="image-link" href={ portfolioItem.siteURL }>
+                    <img className="portfolio-card-image" src={portfolioItem.image}></img>
+                </a>
+            </div>
+            <h3>{ portfolioItem.title }</h3>
             <p> 
-                <a href="www.katedowdyyoga.com">www.katedowdyyoga.com</a> | 
-                Github | 
-                HTML, CSS, Javascript </p>
+                <a className="text-link" href={ portfolioItem.githubURL }>Github</a> |&nbsp; 
+                { portfolioItem.languages } </p>
         </div>
     )
 }

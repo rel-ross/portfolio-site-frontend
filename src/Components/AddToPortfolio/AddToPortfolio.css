@@ -1,0 +1,19 @@
+.portfolio-item-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.portfolio-item-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-item-form input{
+    margin-bottom: 30px;
+}
+
+.portfolio-item-form button {
+    width: 20%;
+
+}

@@ -1,8 +1,24 @@
 .body-section {
-    margin: 2% 5%;
-    width: 50%;
+    margin: 2% 5% 2% 8%;
+    width: 60%;
     display: flex;
     justify-content: center;
+    overflow: scroll;
+    height: 100%;
+    padding-right: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgba(187,187,188,0.22);
+    border-width: thick;
+    border-color: #bbbbbc;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(55,92,189,0.84);
+    border: thin;
+    border-color: #C6C6C6;
 }
 
 .page-title {
