@@ -5,7 +5,7 @@ Personal site frontend. Backend repo can be found here- https://github.com/rel-r
 ## Table of Contents
 <ul>
   <li>General Info</li>
-  <li>Intro Video</li>
+  <li>Video</li>
   <li>Technologies</li>
   <li>Setup</li>
   <li>Features</li>
@@ -30,7 +30,8 @@ https://www.loom.com/share/895afbcdfe86448cbac4b37883d6b26c
 ## Setup
 To run this project: <ol>
   <li>Install file locally by cloning the GitHub repository. </li>
-  <li>With npm installed, run npm start</li>
+  <li>Run npm install</li>
+  <li>Run npm start</li>
   </ol>
 
 ## Features
