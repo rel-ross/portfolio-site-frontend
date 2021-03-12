@@ -17,7 +17,7 @@ Personal site frontend. Backend repo can be found here- https://github.com/rel-r
 My personal website for portfolio pieces
 
 ## Video
-https://youtu.be/jdo5kQTgkXE
+https://www.loom.com/share/895afbcdfe86448cbac4b37883d6b26c
 
 
 ## Technologies
